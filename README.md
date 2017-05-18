@@ -1,7 +1,7 @@
 # Visual Studio Code als zentrale Entwicklungsumgebung
 Dieses Dokument dient mir als Gedächtnisstütze für die Verwendung von Microsoft Visual Studio Code (im folgenden als __VS Code__ bezeichnet) als zentrales Entwicklungswerkzeug für verschiedene Platformen.
 
-Neben den Themen die sich direkt auf VS Code beziehen finden sich weitere Themengebiete die mittel- oder unmittelbar in Zusammenhang mit VS Code stehen.
+Neben den Themen die sich direkt auf VS Code beziehen finden sich weitere Themengebiete die mittel- oder unmittelbar im Zusammenhang mit VS Code stehen.
 
 Im wesentlichen faßt dieses Dokument bestehendes Wissen aus unterschiedlichen Quellen zusammen und wird durch eigene Erfahrungen/Ideen ergänzt.
 
