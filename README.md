@@ -142,3 +142,26 @@ Eine sehr gute Anleitung (allerdings in englischer Sprache) wie in VS Code mit N
 |npm build |Erstell die Node.js Anwendung |
 |npm start|Startet die Anwendung gemäß Festlegung im Wert ``XXXX`` der Datei ``package.json``|
 
+
+# NPM - Express Einführung
+[Excpress](https://expressjs.com/) ist ein minimalistisches Rahmenwerk um Web-Anwendung mit Node.js zu erstellen. 
+
+Installation über die npm Paketverwaltung mittels
+```bash
+$ npm install -g express 
+```
+
+Um schnell und unkompliziert ein Grundgerüst für eine Web-Anwendung zu erhalten empfiehlt sich die Installation des Pakets ``express-generator``. 
+
+```bash
+$ npm install -g  express-generator
+``` 
+
+Nun läßt sich das grundgerüst mittels
+
+```bash
+express myNewApp
+```
+
+erstellen. Im Ordner ``mNewApp`` befindet sich dann der vollständige Quellcode.
+
