@@ -44,6 +44,15 @@ Hier die ``settings.json`` Datei die von mir verwendet wird:
 }
 ```
 
+## Schriftart mit fester Breite
+Bei der Suche nach einer anderen Schriftart für die Darstellung von Programmcode bin ich auf [Inconsolata](https://github.com/google/fonts/blob/master/ofl/inconsolata/Inconsolata-Regular.ttf) gestossen. Auf github gibt es eine [reguläre](http://www.github.com/gogle/fonts/ofl/inconsolata/Inconsolata-Regular.ttf)- und eine [fettdruck](https://github.com/google/fonts/blob/master/ofl/inconsolata/Inconsolata-Bold.ttf )-Variante als TrueType Schriftartdateien. Dateien herunterladen, rechtsklicken auf die Datei im Explorer und Installieren aus dem Kontextmenü wählen. Dann noch VSCode neu starten und in den Einstellungen die Schriftart verwenden (Mit Fallback auf Consolas und ...).
+
+```json
+    "editor.fontFamily": "Inconsolata, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 13,
+```
+
+
 ## Vorgaben für die Formatierung von C# Quelltext
 Um die Formatierung des Quelltextes meinen Vorstellungen ensprechend zu erreichen lege ich in das Projektverzeichnis eine Konfigurationsdatei für [OmniSharp](http://www.omnisharp.net/).
 
