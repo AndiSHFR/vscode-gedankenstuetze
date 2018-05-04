@@ -36,12 +36,25 @@ Nach der Installation präsentiert sich VS Code mit einer dunkel gehaltenen Benu
 Hier die ``settings.json`` Datei die von mir verwendet wird:
 ```json
 {
-    "editor.fontSize": 12,
-    "editor.tabSize": 2,
     "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Lucida Console', Inconsolata, Hack, Consolas, 'Courier New', monospace",
+    "editor.tabSize": 2,
     "workbench.colorTheme": "Default Light+",
-    "workbench.sideBar.location": "right"
-}
+    "workbench.sideBar.location": "right",
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "javascript.validate.enable": false,
+    "telemetry.enableTelemetry": false,
+    "vsicons.presets.angular": false,
+    "flow.useNPMPackagedFlow": true,
+    "prettier.eslintIntegration": true,
+    "search.exclude": {
+      "**/build": true,
+      "**/node_modules": true
+    }
+  }
 ```
 
 ## Schriftart mit fester Breite
